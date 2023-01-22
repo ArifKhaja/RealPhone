@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="website logo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop Now</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="EMI.html">EMI</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="information">
+            <div class="overlay"></div>
+            <img src="images/mobile1.png" alt="Mobile" class="mobile">
+            <div id="circle">
+                <div class="feature one">
+                    <img src="images/camera.png" alt="camera">
+                    <div>
+                        <h1>Camera</h1>
+                        <p>34 MP</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="images/processor.png" alt="camera">
+                    <div>
+                        <h1>Processor</h1>
+                        <p>SnapDragon</p>
+                    </div>
+                </div>
+                <div class="feature three">
+                    <img src="images/display.png" alt="camera">
+                    <div>
+                        <h1>Display</h1>
+                        <p>7.5 inch</p>
+                    </div>
+                </div>
+                <div class="feature four">
+                    <img src="images/battery.png" alt="camera">
+                    <div>
+                        <h1>Battery</h1>
+                        <p>5000 mAh</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="images/arrow.png" alt="upbtn" id="upbtn">
+            <h2>Features</h2>
+            <img src="images/arrow.png" alt="dwbtn" id="dwbtn">    
+        </div>
+        <button class="next"><a href="index2.html">Next Product >></a></button>
+    </div>
+    <script>
+        var circle = document.getElementById("circle");
+        var upbtn = document.getElementById("upbtn");
+        var dwbtn = document.getElementById("dwbtn");
+        var rotateValue = circle.style.transform;
+        var rotateSum;
+
+        upbtn.onclick = function(){
+            rotateSum = rotateValue + "rotate(-90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+        dwbtn.onclick = function(){
+            rotateSum = rotateValue + "rotate(90deg)";
+            circle.style.transform = rotateSum;
+            rotateValue = rotateSum;
+        }
+    </script>
+</body>
+</html>

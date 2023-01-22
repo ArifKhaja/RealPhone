@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMobile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="shop-main">
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="website logo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop Now</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="EMI.html">EMI</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+          <!--  Shopping cart table wrapper  -->
+          <div id="shopping-cart">
+            <div class="txt-heading">
+              <h1>Shopping cart</h1>
+            </div>
+            <a onClick="emptyCart()" id="btnEmpty">Empty Cart</a>
+            <table class="tbl-cart" cellpadding="10" cellspacing="1">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th class='text-right' width="10%">Unit Price</th>
+                  <th class='text-right' width="5%">Quantity</th>
+                  <th class='text-right' width="10%">Sub Total</th>
+                </tr>
+              </thead>
+              <!--  Cart table to load data on "add to cart" action -->
+              <tbody id="cartTableBody">
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td class="text-right">Total:</td>
+                  <td id="itemCount" class="text-right" colspan="2"></td>
+                  <td id="totalAmount" class="text-right"></td>
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+          <!-- Product gallery shell to load HTML from JavaScript code -->
+          <div id="product-grid">
+            <div class="txt-heading">
+              <h1>Products</h1>
+            </div>
+            <div id="product-item-container"></div>
+          </div>
+        </div>
+    </div>    
+    
+</body>
+<script src="shop.js"></script>
+</html>

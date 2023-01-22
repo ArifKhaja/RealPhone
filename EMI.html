@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMobile - EMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <div class="logo">
+                <img src="images/logo.png" alt="website logo">
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop Now</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="EMI.html">EMI</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="emi">
+            <h1>EMI Calculator</h1><br>
+            <p>Loan Amount:</p>
+            <input type="number" name="amount" id="amount"><br><br>
+            <p>Tenure:</p>
+            <input type="number" name="amount" id="tenure"> Months<br><br>
+            <p>ROI:</p>
+            <input type="number" name="amount" id="roi"> %<br><br>
+            <button onclick="Calculate()" id="cal">Calculate</button><br><br>
+            <h3>Monthly EMI = Rs.<span style="font-weight: 20px; color: white;" id="output"></span></h3>
+        </div>
+    <script>
+        function Calculate(){
+            amount = document.getElementById("amount").value;
+            tenure = document.getElementById("tenure").value;
+            roi = document.getElementById("roi").value;
+            const interest = (amount * (roi * 0.01)) / tenure;
+            let emi = ((amount / tenure) + interest).toFixed(2);
+            emi = emi.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            document.getElementById("output").innerHTML=emi
+        }
+    </script>
+</body>
+</html>

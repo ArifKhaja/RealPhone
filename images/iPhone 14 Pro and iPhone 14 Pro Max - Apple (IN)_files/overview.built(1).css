@@ -1,0 +1,834 @@
+.section-hero .avail {
+	color: #86868b;
+	    background: transparent;
+    border:1px solid #000;
+    display:inline-block;
+    font-size: 14px;
+    line-height: 1.3333733333;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    border-radius: 16px;
+    padding: 5px 0;
+    width:148px;
+    text-align:center;
+    margin-bottom:32px;
+}
+.hero-intro .info-wrapper .info-content .models{
+	margin-bottom: 15px
+}
+/* compare table 5G row shift fixes */
+.section-compare .compare-table {
+	grid-template-areas:
+		"iphone-14-pro-device iphone-14-device iphone-13-device iphone-se-device"
+		"iphone-14-pro-display iphone-14-display iphone-13-display iphone-se-display"
+		"iphone-14-pro-dynamic-island iphone-14-dynamic-island iphone-13-dynamic-island iphone-se-dynamic-island"
+		"iphone-14-pro-sos iphone-14-sos iphone-13-sos iphone-se-sos"
+		"iphone-14-pro-camera iphone-14-camera iphone-13-camera iphone-se-camera"
+		"iphone-14-pro-action-mode iphone-14-action-mode iphone-13-action-mode iphone-se-action-mode"
+		"iphone-14-pro-cellular iphone-14-cellular iphone-13-cellular iphone-se-cellular"
+		"iphone-14-pro-battery iphone-14-battery iphone-13-battery iphone-se-battery"
+		"iphone-14-pro-chip iphone-14-chip iphone-13-chip iphone-se-chip"
+		"iphone-14-pro-authentication iphone-14-authentication iphone-13-authentication iphone-se-authentication";
+}
+
+.section-compare .cellular {
+	border-bottom: 0px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+.section-compare .authentication {
+	border-bottom: 1px solid #d2d2d7;
+	margin-bottom: 3px;
+	padding-bottom: 45px;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-compare .compare-table {
+		grid-template-areas:
+			"iphone-14-pro-device iphone-14-device"
+			"iphone-14-pro-display iphone-14-display"
+			"iphone-14-pro-dynamic-island iphone-14-dynamic-island"
+			"iphone-14-pro-sos iphone-14-sos"
+			"iphone-14-pro-camera iphone-14-camera"
+			"iphone-14-pro-action-mode iphone-14-action-mode" 
+			"iphone-14-pro-cellular iphone-14-cellular"
+			"iphone-14-pro-battery iphone-14-battery"
+			"iphone-14-pro-chip iphone-14-chip"
+			"iphone-14-pro-authentication iphone-14-authentication"
+			"iphone-13-device iphone-se-device"
+			"iphone-13-display iphone-se-display"
+			"iphone-13-dynamic-island iphone-se-dynamic-island"
+			"iphone-13-sos iphone-se-sos"
+			"iphone-13-camera iphone-se-camera"
+			"iphone-13-cellular iphone-se-cellular"
+			"iphone-13-battery iphone-se-battery"
+			"iphone-13-chip iphone-se-chip"
+			"iphone-13-authentication iphone-se-authentication";
+	}
+	.section-compare .authentication {
+		margin-bottom: -35px;
+	}
+}
+
+html.text-zoom .section-compare .compare-table {
+    margin-top: 52px;
+    grid-column-gap: 75px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(20, auto);
+    grid-template-areas: "iphone-14-pro-device iphone-14-device"
+						 "iphone-14-pro-display iphone-14-display"
+					  	 "iphone-14-pro-dynamic-island iphone-14-dynamic-island"
+						 "iphone-14-pro-sos iphone-14-sos"
+						 "iphone-14-pro-camera iphone-14-camera"
+						 "iphone-14-pro-action-mode iphone-14-action-mode" 
+						 "iphone-14-pro-cellular iphone-14-cellular"
+						 "iphone-14-pro-battery iphone-14-battery"
+						 "iphone-14-pro-chip iphone-14-chip"
+						 "iphone-14-pro-authentication iphone-14-authentication"
+						 "iphone-13-device iphone-se-device"
+						 "iphone-13-display iphone-se-display"
+						 "iphone-13-dynamic-island iphone-se-dynamic-island"
+					 	 "iphone-13-sos iphone-se-sos"
+						 "iphone-13-camera iphone-se-camera"
+						 "iphone-13-cellular iphone-se-cellular"
+						 "iphone-13-battery iphone-se-battery"
+						 "iphone-13-chip iphone-se-chip"
+						 "iphone-13-authentication iphone-se-authentication";
+}
+
+@media only screen and (max-width: 734px) {
+	.section-compare .authentication {
+		margin-bottom: -1px;
+	}
+}
+.ac-ribbon_gradient {
+	padding-top: 16px !important;
+	padding-bottom: 16px !important;
+}
+.section-ar .ar-quicklook-gallery-image-deep-purple {
+	background-image: url(/in/iphone-14-pro/images/overview/ar/ar_deep_purple__fu8riutnvu6a_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-ar .ar-quicklook-gallery-image-deep-purple {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_deep_purple__fu8riutnvu6a_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-ar .ar-quicklook-gallery-image-deep-purple {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_deep_purple__fu8riutnvu6a_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-ar .ar-quicklook-gallery-image-deep-purple {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_deep_purple__fu8riutnvu6a_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-ar .ar-quicklook-gallery-image-deep-purple {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_deep_purple__fu8riutnvu6a_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-ar .ar-quicklook-gallery-image-deep-purple {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_deep_purple__fu8riutnvu6a_small_2x.jpg);
+	}
+}
+
+html.ar-quicklook .section-ar .ar-quicklook-gallery-image-gold {
+	background-image: url(/in/iphone-14-pro/images/overview/ar/ar_gold__c46szg145sgi_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-gold {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_gold__c46szg145sgi_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-gold {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_gold__c46szg145sgi_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-gold {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_gold__c46szg145sgi_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-gold {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_gold__c46szg145sgi_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-gold {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_gold__c46szg145sgi_small_2x.jpg);
+	}
+}
+
+html.ar-quicklook .section-ar .ar-quicklook-gallery-image-silver {
+	background-image: url(/in/iphone-14-pro/images/overview/ar/ar_silver__z5hjaq1smjmi_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-silver {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_silver__z5hjaq1smjmi_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-silver {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_silver__z5hjaq1smjmi_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-silver {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_silver__z5hjaq1smjmi_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-silver {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_silver__z5hjaq1smjmi_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-silver {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_silver__z5hjaq1smjmi_small_2x.jpg);
+	}
+}
+
+html.ar-quicklook .section-ar .ar-quicklook-gallery-image-space-black {
+	background-image: url(/in/iphone-14-pro/images/overview/ar/ar_space_black__dn7ewlno5zqu_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-space-black {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_space_black__dn7ewlno5zqu_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-space-black {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_space_black__dn7ewlno5zqu_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-space-black {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_space_black__dn7ewlno5zqu_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-space-black {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_space_black__dn7ewlno5zqu_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	html.ar-quicklook .section-ar .ar-quicklook-gallery-image-space-black {
+		background-image: url(/in/iphone-14-pro/images/overview/ar/ar_space_black__dn7ewlno5zqu_small_2x.jpg);
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-1 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_1__eyfso987igqe_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-2 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_2__fss1je1zozau_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-3 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_3__5p2dgeuta5eq_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-4 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_4__f2r5f3gnfc66_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-5 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_5__cok84fv6q2eu_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-6 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_6__ewzdus606zu6_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_large_2x.jpg);
+	}
+}
+
+@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_large.jpg);
+	}
+
+	@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_large_2x.jpg);
+		}
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_medium.jpg);
+		}
+
+		@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_medium_2x.jpg);
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_small_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	@supports ((-webkit-mask-image: url("")) or (mask-image: url(""))) {
+		.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+			background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_small.jpg);
+		}
+
+		@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+			.section-lock-screen .section-content .lockscreen-gallery #lockscreen-gallery-item-7 .device {
+				background-image: url(/in/iphone-14-pro/images/overview/lock-screen/lock_screen_7__bjsaoiza3lw2_small_2x.jpg);
+			}
+		}
+	}
+}
+
+.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-static {
+	background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_large.jpg);
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-resolution: 144dpi), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 1.5dppx) {
+	.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-static {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_large_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-static {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_medium.jpg);
+	}
+}
+
+@media only screen and (max-width: 1068px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 1068px) and (min-resolution: 1.5dppx), only screen and (max-width: 1068px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-static {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_medium_2x.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-static {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_small.jpg);
+	}
+}
+
+@media only screen and (max-width: 734px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (max-width: 734px) and (min-resolution: 1.5dppx), only screen and (max-width: 734px) and (min-resolution: 144dpi) {
+	.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-static {
+		background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_small_2x.jpg);
+	}
+}
+
+
+.section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-start { 
+    background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_large.jpg)
+}
+@media (-webkit-min-device-pixel-ratio:1.5),
+(min-resolution:144dpi),
+only screen and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (min-resolution:1.5dppx) {
+    .section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-start {
+        background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_large_2x.jpg)
+    }
+}
+@media only screen and (max-width:1068px) {
+    .section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-start { 
+        background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_medium.jpg)
+    }
+}
+@media only screen and (max-width:1068px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:1068px)and (min-resolution:1.5dppx),
+only screen and (max-width:1068px)and (min-resolution:144dpi) {
+    .section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-start {
+        background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_medium_2x.jpg)
+    }
+}
+@media only screen and (max-width:734px) {
+    .section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-start { 
+        background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_small.jpg)
+    }
+}
+@media only screen and (max-width:734px)and (-webkit-min-device-pixel-ratio:1.5),
+only screen and (max-width:734px)and (min-resolution:1.5dppx),
+only screen and (max-width:734px)and (min-resolution:144dpi) {
+    .section-lock-screen .section-content .subsection-always-on .graphics .device .screen-wrapper .software-start {
+        background-image: url(/in/iphone-14-pro/images/overview/lock-screen/always_on_startframe__er0zc80ugga6_small_2x.jpg)
+    }
+}
+ 
